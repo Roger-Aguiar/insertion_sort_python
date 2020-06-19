@@ -13,7 +13,7 @@ aux = 0 #It gets the element to be chenged
 
 #Process
 
-#It displays the begining array
+#It displays the beginning array
 print(my_array)
 
 #It sorts the array
