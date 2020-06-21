@@ -1,7 +1,7 @@
 #Name:         Roger Silva Santos Aguiar
 #Function:     This is the menu file, all other files will be executed from here
-#Initial date: June 20, 202
-#Last update:  June 20, 202
+#Initial date: June 20, 2020
+#Last update:  June 20, 2020
 
 #Required modules
 import insertion_sort
