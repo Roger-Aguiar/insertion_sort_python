@@ -1,7 +1,7 @@
 #Name:         Roger Silva Santos Aguiar
 #Function:     Insertion Sort algorithm implementation
 #Initial date: June 18, 2020
-#Last update:  June 20, 2020
+#Last update:  June 21, 2020
 
 class Insertion_sort:
 
@@ -10,8 +10,6 @@ class Insertion_sort:
     def insertionSortAsc(my_array):
         # Variables
         i = 1  # Index of the array
-        key = 0  # Key to be serached in the array
-        aux = 0  # It gets the element to be chenged
 
         print("Insertion sort in ascending order")
 
@@ -73,15 +71,3 @@ class Insertion_sort:
             # It decreases the index i
             i = i + 1
 
-    #It this module is executed directly, the following code will be executed.
-    if __name__ == '__main__':
-        # It creates two integer arrays with the same elements
-        my_array = [5, 2, 4, 6, 1, 3]
-        my_array2 = [5, 2, 4, 6, 1, 3]
-
-        # It calls the function
-        print("Showing the execution of the Insertion sort in ascending order:")
-        insertionSortAsc(my_array) #It sorts the array in ascending order
-
-        print("\nShowing the execution of Insertion sort in descending order:")
-        insertionSortDesc(my_array)#It sorts the array in descending order
