@@ -13,6 +13,8 @@ class Insertion_sort:
         key = 0  # Key to be serached in the array
         aux = 0  # It gets the element to be chenged
 
+        print("Insertion sort in ascending order")
+
         # It displays the beginning array
         print(my_array)
 
@@ -46,6 +48,7 @@ class Insertion_sort:
         key = 0  # Key to be serached in the array
         aux = 0  # It gets the element to be chenged
 
+        print("Insertion Sort in descending order")
         # It displays the beginning array
         print(my_array)
 
@@ -70,13 +73,15 @@ class Insertion_sort:
             # It decreases the index i
             i = i + 1
 
-    # It creates two integer arrays with the same elements
-    my_array = [5, 2, 4, 6, 1, 3]
-    my_array2 = [5, 2, 4, 6, 1, 3]
+    #It this module is executed directly, the following code will be executed.
+    if __name__ == '__main__':
+        # It creates two integer arrays with the same elements
+        my_array = [5, 2, 4, 6, 1, 3]
+        my_array2 = [5, 2, 4, 6, 1, 3]
 
-    # It calls the function
-    print("Showing the execution of the Insertion sort in ascending order:")
-    insertionSortAsc(my_array) #It sorts the array in ascending order
+        # It calls the function
+        print("Showing the execution of the Insertion sort in ascending order:")
+        insertionSortAsc(my_array) #It sorts the array in ascending order
 
-    print("\nShowing the execution of Insertion sort in descending order:")
-    insertionSortDesc(my_array)#It sorts the array in descending order
+        print("\nShowing the execution of Insertion sort in descending order:")
+        insertionSortDesc(my_array)#It sorts the array in descending order
